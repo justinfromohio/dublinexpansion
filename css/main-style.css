@@ -1,0 +1,275 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "myriad-pro",sans-serif;
+    font-size: 1.6em;
+    font-weight: normal;
+
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+ .img-responsive {
+    display: inline;
+}
+
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "bebas-neue",sans-serif;
+    font-style: normal;
+    color: rgb(255,255,255);
+    letter-spacing: 5px;
+ 
+}
+w
+h2 {
+    font-size: 2.75em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+
+
+.video-container {
+
+    margin-bottom: 60px;
+
+
+}
+
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    border-radius: 0;
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 100px;
+}
+
+
+
+/* Header */
+.navbar {
+    background-color: #2A2A2A;
+    margin-bottom: -20px;
+}
+
+.navbar-default {
+    border-color: #2A2A2A;
+}
+
+.header-logo {
+    padding: .75em;
+    height: 70px;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/dublin-skyline.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    -webkit-box-shadow: inset 0px 1px 11px 1x rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 1px 11px 1px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 1px 11px 1px rgba(0,0,0,0.5);
+}
+
+.header p {
+    color: rgb(255,255,255);
+    font-size: 1.5em;
+    padding-top: 25px;
+    margin: 25px 195px;
+}
+
+
+
+/* About */
+
+.about {
+    background-color: rgb(42,42,42);
+    padding: 50px 0;
+    -o-background-size: cover;
+    -webkit-box-shadow: inset 0px 1px 11px 1x rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 1px 11px 1px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 1px 11px 1px rgba(0,0,0,0.5);
+}
+
+.lead {
+    color: white;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+/* Callout */
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/jim-at-board-004.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+
+.callout p {
+    color: rgb(255,255,255);
+    font-size: 1.25em;
+    margin: 25px 100px;
+
+}
+
+
+/*Data-Center-Floorplan*/
+#memphis-datacenter {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 55%;
+/*    background-color: rgb(231,231,232);*/
+    background: url(../img/data-center-floor.png) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    padding:10px 0;
+}
+
+
+
+ul {
+    list-style-type: none;
+
+}
+ul li {
+    padding: 5px;
+    margin: 0 0 15px 0;
+}
+
+.list-number {
+    padding: 0 10px;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(35,31,32);
+    color: rgb(255,255,255);
+    font-size: 42px;
+}
+
+.list-stat {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 15px 10px 15px;
+    padding: 15px;
+    color: rgba(255,255,255,1);
+
+}
+
+.media-heading {
+    margin-top: 10px;
+}
+
+
+
+@media(max-width:768px) {
+
+.header p,
+.callout p{
+
+    margin: 25px 50px;
+    font-size: 1em;
+}
+
+.callout p {
+margin: 25px 50px;
+
+}
+    
+}
+
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
